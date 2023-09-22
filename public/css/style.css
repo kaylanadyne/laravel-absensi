@@ -1,0 +1,52 @@
+.main{
+    height: 100vh;
+}
+.sidebar{
+    background-color: #13005A;
+    color: #fff;
+    padding: 20px 2px;
+}
+.sidebar a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding:20px 40px;
+}
+.sidebar a:hover{
+    background-color: #205295;
+}
+.content{
+    padding: 10px; 
+}
+.sidebar a.active{
+    background-color: #205295;
+    border-right: solid 4px orange;
+}
+.card-data{
+    border: solid 1px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 40px
+}
+.card-data.book{
+    background-color: #13005A; 
+    border-top: 10px solid #205295;
+}
+.card-data i{
+    font-size: 50px;
+   
+}
+.card-desc{
+    font-size: 30px;
+}
+.card-count{
+    font-size: 30px;
+}
+.card-data.category{
+    background-color: lightpink;
+    border-top: 10px solid #EAC7C7;
+}
+.card-data.user{
+    background-color: cadetblue;
+    border-top: 10px solid #86C8BC;
+}
